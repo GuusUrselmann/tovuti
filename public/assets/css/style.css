@@ -1,0 +1,56 @@
+/*========*/
+/*SECTIONS*/
+/*========*/
+#section-home {
+    width: 100%;
+    height: 100vh;
+}
+
+/*===========*/
+/*BACKGROUNDS*/
+/*===========*/
+.bg-login {
+    background-image: url(/school/tovuti/public/assets/images/guus.png);
+}
+
+/*==========*/
+/*LOGIN PAGE*/
+/*==========*/
+.login-field {
+    position: relative;
+    width: 350px;
+    height: auto;
+    margin: auto;
+    padding: 7px;
+    top: 250px;
+    border: 1px solid #ffb938;
+    border-radius: 3px;
+    background-color: rgba(232, 232, 232, .8);
+}
+.login-title {
+    width: 100%;
+    height: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    line-height: 35px;
+    font-size: 35px;
+    text-align: center;
+    color: #000;
+}
+.login-form {
+    width: 100%;
+}
+.login-form_mnu .menuitem {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.login-form_mnu .menuitem label, .login-form_mnu .menuitem input {
+    width: 100%;
+    height: 25px;
+}
+.login-form_mnu .menuitem input {
+    border-radius: 3px;
+}
+.login-form_mnu .menuitem.form_submit input {
+    width: 50%;
+}

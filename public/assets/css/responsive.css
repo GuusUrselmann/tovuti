@@ -1,0 +1,49 @@
+/*==============================*/
+/*=====LARGE DESKTOP DEVICES====*/
+/*==============================*/
+@media screen and (min-width: 1200px) {
+    .content-center {
+        width: 1000px;
+        margin: auto;
+    }
+}
+
+/*==============================*/
+/*====MEDIUM DESKTOP DEVICES====*/
+/*==============================*/
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+    .content-center {
+        width: 900px;
+        margin: auto;
+    }
+}
+
+/*==============================*/
+/*====MEDIUM DEVICES TABLETS====*/
+/*==============================*/
+@media screen and (min-width: 660px) and (max-width: 959px) {
+    .content-center {
+        width: 600px;
+        margin: auto;
+    }
+}
+
+/*==============================*/
+/*=====MEDIUM DEVICES MOBILE====*/
+/*==============================*/
+@media screen and (min-width: 480px) and (max-width: 659px) {
+    .content-center {
+        width: 400px;
+        margin: auto;
+    }
+}
+
+/*==============================*/
+/*=====SMALL DEVICES MOBILE=====*/
+/*==============================*/
+@media screen and (max-width: 479px) {
+    .content-center {
+        width: 100%;
+        margin: auto;
+    }
+}
