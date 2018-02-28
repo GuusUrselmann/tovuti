@@ -13,6 +13,93 @@
     background-image: url(/school/tovuti/public/assets/images/guus.png);
 }
 
+/*=======*/
+/*BUTTONS*/
+/*=======*/
+.btn-tvt-1 {
+    border: 2px solid #51ce35;
+    background-color: #51ce35;
+    color: #fff;
+    font-size: 15px;
+}
+.btn-tvt-1:hover {
+    background-color: transparent;
+    color: #51ce35;
+}
+
+/*=======*/
+/*SIDEBAR*/
+/*=======*/
+.sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    background-color: #fff;
+    border-right: 1px solid #dfdfdf;
+    z-index: 2;
+}
+.sidebar_nav {
+    margin-top: 150px;
+}
+.sidebar_nav_mnu .sidebar_item {
+    width: 100%;
+    height: 40px;
+}
+.sidebar_nav_mnu .sidebar_item {
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #6a6a6a;
+}
+.sidebar_nav_mnu .sidebar_item .navitem_left {
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    float: left;
+    color: #ec9e2a;
+}
+.sidebar_nav_mnu .sidebar_item .navitem_right {
+    text-align: left;
+    float: left;
+
+}
+.sidebar_nav_mnu .menuitem:hover .sidebar_item {
+    border-bottom: 1px solid  #ec9e2a;
+}
+.sidebar_nav_mnu .menuitem:hover .sidebar_subnav {
+    display: block;
+}
+
+.sidebar_subnav {
+    display: none;
+    position: absolute;
+    width: 200px;
+    margin-top: -42px;
+    margin-left: 199px;
+    background-color: #fff;
+    border-left: 1px solid #dfdfdf;
+}
+.sidebar_subnav-arrow {
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    top: 7.5px;
+    background-color: #dfdfdf;
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+}
+.sidebar_nav_submnu .sidebar_subitem {
+    width: 100%;
+    height: 40px;
+    padding-left: 20px;
+    line-height: 40px;
+    font-size: 15px;
+    text-align: left;
+}
+.sidebar_nav_submnu .menuitem:hover .sidebar_subitem {
+    border-bottom: 1px solid  #ec9e2a;
+}
+
 /*==========*/
 /*LOGIN PAGE*/
 /*==========*/
@@ -23,7 +110,6 @@
     margin: auto;
     padding: 7px;
     top: 250px;
-    border: 1px solid #ffb938;
     border-radius: 3px;
     background-color: rgba(232, 232, 232, .8);
 }
@@ -51,6 +137,54 @@
 .login-form_mnu .menuitem input {
     border-radius: 3px;
 }
-.login-form_mnu .menuitem.form_submit input {
+.login-form_mnu .menuitem label {
+    font-size: 15px;
+    color: #000;
+}
+.login-form_mnu .menuitem .form_submit {
     width: 50%;
+    height: 35px;
+}
+.login-form_mnu .menuitem .form_forgot {
+    width: 50%;
+    line-height: 35px;
+    float: right;
+}
+
+/*===============*/
+/*CREATEUSER PAGE*/
+/*===============*/
+.newuser-form {
+    width: 100%;
+    padding: 10px
+}
+.newuser-form_mnu .menuitem {
+    width: 250px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 25px;
+}
+.newuser-form_mnu .menuitem label, .newuser-form_mnu .menuitem input {
+    width: 100%;
+    height: 25px;
+}
+.newuser-form_mnu .menuitem select {
+    background: none;
+    border-bottom: 1px solid #9e9e9e;
+}
+.newuser-form_mnu .menuitem label {
+    font-size: 15px;
+    color: #000;
+}
+.newuser-form_mnu .menuitem.hor_2 {
+    float: left;
+}
+.newuser-form_mnu .menuitem .form_submit {
+    width: 50%;
+    height: 35px;
+}
+.newuser-form_mnu .menuitem .form_forgot {
+    width: 50%;
+    line-height: 35px;
+    float: right;
 }

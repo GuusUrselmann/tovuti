@@ -9,7 +9,10 @@
         <main>
             <div class="cleart"></div>
             <div class="main_content">
-                <?php include(ABSPATH.$router->direct()); ?>
+                <?php if($wfweb->user_logged_in() == true) {$wfweb->sidebar();} ?>
+                <div class="content_wrapper">
+                    <?php include(ABSPATH.$router->direct()); ?>
+                </div>
             </div>
             <div class="clearb"></div>
         </main>
